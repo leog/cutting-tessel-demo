@@ -30,5 +30,20 @@
   "dependencies": {
     "gulp": "^3.8.11",
     "gulp-connect": "^2.2.0"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "app"
+    },
+    "dependencies": {
+      "angular/quickstart": "github:angular/quickstart@master",
+      "gulp": "jspm:gulp@^3.8.11",
+      "gulp-connect": "jspm:gulp-connect@^2.2.0",
+      "soundcloud/waveformjs": "github:soundcloud/waveformjs@master"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.87",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.87"
+    }
   }
 }
